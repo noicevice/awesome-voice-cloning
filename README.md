@@ -38,7 +38,7 @@ Below is a hastily coded python script to convert graphemes to phonemes in files
 
 # Waveglow
 
-[On training Waveglow](waveglow/readme.md)
+[On training Waveglow - Scripp](waveglow/readme.md)
 
 # Dataset Resources
 
@@ -48,7 +48,7 @@ Below is a hastily coded python script to convert graphemes to phonemes in files
 
 [ASSFAP](https://colab.research.google.com/drive/18lBRBWOs4uV1DjhoW_fVzoydYUw400PW#scrollTo=ZfO2MFo2qrMi)
 
-[Scipp's Guide](datasets/scripps-thoughts.md)
+[Scripp's Guide](datasets/scripps-thoughts.md)
 
 Use ffmpeg to convert your wav files to the right format:
 

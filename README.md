@@ -80,3 +80,9 @@ Or, on a whole directory:
 # Creating a Dataset
 
 [Some Scripts for recording voices](texts/readme.md)
+
+[SRT Splitting](https://github.com/camjac251/srt-parse)
+
+[AutoSub](https://github.com/BingLingGroup/autosub)
+
+[Cam's Workflow](workflows/cam.md)

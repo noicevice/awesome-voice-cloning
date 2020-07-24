@@ -4,6 +4,42 @@
 
 A place for all things voice cloning. Make a PR!
 
+# TacoTron 2
+
+[TACOTRON 2](https://github.com/NVIDIA/tacotron2)
+
+#### CookiePPP Tacotron 2 Colabs
+
+[This is the main Synthesis Colab](https://colab.research.google.com/drive/19_S4oUc11S2N2FG-ybrwN455A74bbb85)
+
+[This is the simplified Synthesis Colab](https://colab.research.google.com/drive/1p5Y6cqVAd9NTnFqQ7M11i4hG7M0DwvU2)
+
+[This is supposedly a newer version of the simplified Synthesis Colab](https://colab.research.google.com/drive/1qEwv6sHkmjD6GFflDxBXbefHXph2kJJv)
+
+[For the sake of completeness, this is the training colab](https://colab.research.google.com/drive/1d1a4d7riehUOTofchlwo8N79n3Q7W4SK)
+
+It's worth noting that the cookiePPP training colab has (what I believe is) a major improvement over mine: an integrated grapheme-to-phoneme system, so that the model can learn on syllabes instead of stupid nonstandard English spellings. I believe this will only work with English transcrips.
+
+#### Scripp's Training Colabs
+
+And another link: this is my fully functional Colab notebook for tacotron2 training and synthesis, with explanatory notes. No hardware required--it'll train your model on google's free GPUs and save the output to your google drive. The most complicated part is prepping your dataset before upload. Currently set up to train from the LJspeech-trained model, on 22050hz wav files with 16-bit PCM encoding. (See the dataset section for help on this)
+
+[Training](https://colab.research.google.com/drive/1hiFHCyS_YNJVMnsvzrJq8XYjshRg1c5D?usp=sharing)
+
+You can use this tensorboard to interact in parallel with the Tacotron2 for Dummies notebook to check the progress of your model. You will have to use "Factory Reset Runtime" every time you want to update the tensorboard to check progress.  This is a GREAT way to visualize what's going on with your model.  Much more useful than the alignment charts that the training colab spits out.
+
+[Tensorboard](https://colab.research.google.com/drive/1V8Dr48J-FMVy39Xe1p8QMyCWqH0_XO4t?usp=sharing)
+
+#### Converting graphemes to phonemes
+
+Below is a hastily coded python script to convert graphemes to phonemes in files already prepped for tt2 learning. Basically it takes each line of <filename.wav|transcription> and converts the transcription segment into IPA characters. What this means is that the model shouldn't get confused about words that don't sound the way they are written, and in general they should learn better.
+
+[Script in Colab Form](https://colab.research.google.com/drive/1HKpCTAbirNV10UmbKDh-eTkvbiXhTeM7?usp=sharing)
+
+# Waveglow
+
+[On training Waveglow](waveglow/readme.md)
+
 # Dataset Resources
 
 #### Tools

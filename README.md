@@ -76,3 +76,7 @@ Or, on a whole directory:
 [TED-LIUM: 452 hours of audio and aligned trascripts from TED talks.](https://www.openslr.org/51)
 
 [LibriSpeech: 1000+ hour dataset of read English speech based on public domain audiobooks.](https://www.openslr.org/12)
+
+# Creating a Dataset
+
+[Some Scripts for recording voices](texts/readme.md)

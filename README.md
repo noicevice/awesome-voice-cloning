@@ -86,3 +86,7 @@ Or, on a whole directory:
 [AutoSub](https://github.com/BingLingGroup/autosub)
 
 [Cam's Workflow](workflows/cam.md)
+
+# Glossary of Terms
+
+[Glossary](datasets/glossary.md)
